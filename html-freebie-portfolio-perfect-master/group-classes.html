@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pro Teach Weekend</title>
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="relstylesheet">
+    <style>
+        .course-highlight {
+            color: red; /* or the specific color code used */
+            text-decoration: line-through;
+        }
+
+        .course-price {
+            color: green; /* or the specific color code used */
+        }
+
+        .offer-time {
+            color: red; /* or the specific color code used */
+        }
+        .site-headea {
+            padding-top: 70px; /* Adjust the value as needed */
+        }
+        body {
+            background-color: #f5f5dc; /* Blue background */
+            color: #111213; /* White text color */
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between; /* Push footer to the bottom */
+        }
+
+        .contact-form {
+            background-color: #ffe; /* White form background */
+            color: #000; /* Black text color for the form */
+            padding: 20px;
+            margin-top: 50px;
+            border-radius: 5px;
+        }
+
+        /* Add custom styles here for further customization */
+    </style>
+</head>
+<body>
+
+
+<div class="container mt-5 site-headea">
+    <div class="row">
+        <div class="col-lg-6">
+            <h2>PRO TEACH Weekend</h2>
+            <p class="lead">Легендарний методичний курс від школи англійської 'PROGRESS'</p>
+            <ul>
+                <li>Кваліфіковані тренери</li>
+                <li>Професійно записані воркшопи</li>
+                <li>Доступ до матеріалів протягом 6 місяців</li>
+                <!-- More list items -->
+            </ul>
+            <p class="course-highlight">1999 грн</p>
+            <p class="course-price">1799 грн</p>
+            <p class="offer-time">знижка до 1.03</p>
+            <button class="btn btn-danger">Хочу стати кращим вчителем</button>
+        </div>
+        <div class="col-lg-6">
+            <img src="assets/img/grup.jpeg" class="img-fluid align-top" alt="Group Photo">
+        </div>
+    </div>
+</div>
+
+    <section id="contact" class="site-section section-form text-center">
+        <div class="container">
+            <h3>Contact</h3>
+            <img src="assets/img/lines.svg" class="img-lines" alt="lines">
+            <form>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <input type="text" name="name" class="form-control mt-x-0" placeholder="Name" required>
+                    </div>
+                    <div class="col-sm-6">
+                        <input type="email" name="email" class="form-control" placeholder="Email" required>
+                    </div>
+                    <div class="col-sm-12">
+                        <textarea name="message" id="mesaage" class="form-control" placeholder="Message" required></textarea>
+                    </div>
+                </div>
+                <button class="btn btn-border" type="submit">Hire Me <span class="glyphicon glyphicon-send"></span></button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Bootstrap and other scripts -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+
+ <header id="masthead" class="site-header">
+        <nav id="primary-navigation" class="site-navigation">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+
+                    <button type="button" class="navbar-toggle collapsed" data-target="#portfolio-perfect-collapse" aria-expanded="false" >
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+
+                    <a href="#hero" class="site-logo"><img src="assets/img/logo.png" alt="logo"></a>
+
+                </div><!-- /.navbar-header -->
+
+                <div class="main-menu" id="portfolio-perfect-collapse">
+
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class="page-scroll"><a href="index.html#hero">Про школу</a></li>
+                        <li class="page-scroll"><a href="index.html#about">Про мене</a></li>
+                        <li class="page-scroll"><a href="index.html#service">Формати навчання</a></li>
+                        <li class="page-scroll"><a href="index.html#portfolio">Курси</a></li>
+                        <li class="page-scroll"><a href="index.html#contact">Контактні дані</a></li>
+
+                    </ul><!-- /.navbar-nav -->
+
+                </div><!-- /.navbar-collapse -->
+
+            </div>
+        </nav><!-- /.primary-navigation -->
+    </header><!-- /#header -->
+</body>
+</html>
